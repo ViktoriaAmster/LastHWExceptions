@@ -4,7 +4,8 @@ public class DataIn {
     public String[] dataToArray(){
         Scanner dataScanner = new Scanner(System.in);
         while (true) {
-            System.out.println("Введите данные через пробел");
+            System.out.println("Введите данные через пробел. ");
+            System.out.println("*Фамилия* *Имя* *Отчество* *дата рождения* *номер телефона* *пол(f/m)*");
             String data = dataScanner.nextLine();
 
             String [] splitData = data.split(" ");
